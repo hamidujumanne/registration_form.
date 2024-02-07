@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/banner-03.jpg);
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(251, 251, 251);
+}
+.navbar {
+    background-color: #969292;
+    overflow: hidden;
+    z-index: 0 ;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 48%;
+      
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: relative;
+    left: 80vh;
+
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  
